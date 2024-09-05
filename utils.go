@@ -9,8 +9,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/bloXroute-Labs/bloxroute-sdk-go/connection/ws"
 	"github.com/cenkalti/backoff/v4"
+	"github.com/piyanggoon/bloxroute-sdk-go/connection/ws"
 	"github.com/sourcegraph/jsonrpc2"
 )
 

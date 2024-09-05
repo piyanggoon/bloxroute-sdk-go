@@ -17,7 +17,7 @@ import (
 	"github.com/bloXroute-Labs/gateway/v2/jsonrpc"
 	"github.com/bloXroute-Labs/gateway/v2/types"
 
-	"github.com/bloXroute-Labs/bloxroute-sdk-go/connection/ws"
+	"github.com/piyanggoon/bloxroute-sdk-go/connection/ws"
 )
 
 const (

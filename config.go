@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/bloXroute-Labs/bloxroute-sdk-go/connection/ws"
+	"github.com/piyanggoon/bloxroute-sdk-go/connection/ws"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 )

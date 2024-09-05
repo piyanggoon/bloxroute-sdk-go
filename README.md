@@ -18,7 +18,7 @@ Import the SDK into your project:
 
 ```go
 import (
-    sdk "github.com/bloXroute-Labs/bloxroute-sdk-go"
+    sdk "github.com/piyanggoon/bloxroute-sdk-go"
 )
 ```
 
@@ -86,8 +86,8 @@ import (
 	"fmt"
 	"time"
 
-	sdk "github.com/bloXroute-Labs/bloxroute-sdk-go"
-	"github.com/bloXroute-Labs/bloxroute-sdk-go/connection/ws"
+	sdk "github.com/piyanggoon/bloxroute-sdk-go"
+	"github.com/piyanggoon/bloxroute-sdk-go/connection/ws"
 	"github.com/ethereum/go-ethereum/crypto"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
@@ -299,4 +299,4 @@ Contact us at [our Discord] for further questions.
 [white paper]: https://bloxroute.com/wp-content/uploads/2019/01/whitepaper-V1.1-1.pdf
 [documentation]: https://docs.bloxroute.com/
 [our Discord]: https://discord.gg/jHgpN8b
-[contributing guide]: https://github.com/bloXroute-Labs/bloxroute-sdk-go/blob/master/CONTRIBUTING.md
+[contributing guide]: https://github.com/piyanggoon/bloxroute-sdk-go/blob/master/CONTRIBUTING.md

@@ -1,4 +1,4 @@
-module github.com/bloXroute-Labs/bloxroute-sdk-go
+module github.com/piyanggoon/bloxroute-sdk-go
 
 go 1.21
 
