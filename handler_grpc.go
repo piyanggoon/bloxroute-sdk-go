@@ -332,7 +332,7 @@ func (h *grpcHandler) sub(ctx context.Context, cancel context.CancelFunc, f type
 				var header *Header
 				if resp.Header != nil {
 					header = &Header{
-						ParentHash:       resp.Header.WithdrawalsRoot,
+						ParentHash:       resp.Header.ParentHash,
 						Sha3Uncles:       resp.Header.Sha3Uncles,
 						Miner:            resp.Header.Miner,
 						StateRoot:        resp.Header.StateRoot,
