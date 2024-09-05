@@ -360,7 +360,8 @@ func (h *grpcHandler) sub(ctx context.Context, cancel context.CancelFunc, f type
 					header.BaseFeePerGas = &baseFee
 				}
 				if resp.Header.WithdrawalsRoot != "" {
-					withdrawalsRoot := common.BytesToHash([]byte(resp.Header.WithdrawalsRoot))
+					// withdrawalsRoot := common.BytesToHash([]byte(resp.Header.WithdrawalsRoot))
+					withdrawalsRoot := common.HexToHash(resp.Header.WithdrawalsRoot)
 					header.WithdrawalsRoot = &withdrawalsRoot
 				}
 				if resp.Header.ParentBeaconRoot != "" {
